@@ -1,0 +1,12 @@
+.icnLGIN{
+    direction: rtl;
+
+
+}
+.navList{
+    list-style-type: none;
+}
+.navList>li>a{
+    text-decoration: none;
+    color: black;
+}
