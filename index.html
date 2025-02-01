@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./style/Nav/Nac.css">
     <!-- style CSS -->
     <link rel="stylesheet" href="./style/style.css">
-
+    
   </head>
   <body>
       <nav class="nav pt-2">
@@ -32,15 +32,107 @@
             </div>
             <!--! this's menu site -->
             <div class="col">
-              <ul class="d-flex navList">
-                <li class="mx-1 - p-1"><a href="" class="">Home</a></li>
-                <!--  style inline icon -->
-                <li class="mx-1 p-1"><a href="" class="">Shop<span style="margin-left: 2.2px;"><i class="bi bi-chevron-compact-down"></i></span>
-                </a></li>
-                <li class="mx-1  p-1"><a href="" class="">Our Story</a></li>
-                <li class="mx-1  p-1"><a href="" class="">Blog</a></li>
-                <li class="mx-1 bg- p-1"><a href="" class="">Cantact Us</a></li>
-              </ul>
+              
+          <ul class="d-flex navList">
+            <li class="mx-1  p-1"><a href="" class="">Home</a></li>
+               <!--  style inline icon and Shop subMenu -->
+              </a>
+              <li class="mx-1 shopClass  p-1 position-relative"><a href="" class="" >Shop<span style="margin-left: 2.2px;"><i class="bi bi-chevron-compact-down"></i></span>
+                  <div class="subMenu position-absolute  p-3">
+                             <!-- this part use NavList className -->
+                    <ul class="navList d-flex ">
+                      
+                            <li>
+
+                                  <div class="linkListOne">
+                                    <b >Men</b>
+                                    <div class="d-flex flex-column">
+                                      <a href="">T-Shirts</a>
+                                      <a href="">Cusual Shirts</a>
+                                      <a href="">Formal Shirts</a>
+                                      <a href="">jackets</a>
+                                      <a href="">blazers & coats</a>
+                                    </div>
+                                 </div>
+                                  <div class="linkListTow mt-3">
+                                    <b >Indian & Fostive Waer</b>
+                                    <div class="d-flex flex-column">
+                                      <a href="">Kurtas & Kurta Sets</a>
+                                      <a href="">Sherwanis</a>
+                                    </div>
+                                 </div>
+
+                              </li>
+             
+                                <!-- column tow submenu -->
+                                <li class="ms-4">
+                                  <div class="linkListOne">
+                                <b >Wemen</b>
+                                <div class="d-flex flex-column">
+                                  <a href="">Kurtas & Suits </a>
+                                  <a href="">Sarees </a>
+                                  <a href="">Ethnic Wear </a>
+                                  <a href="">Lehenga Cholis </a>
+                                  <a href="">Jackets </a>
+                                </div>
+                             </div>
+                              <div class="ps-2 linkListTow mt-3">
+                                <b >Western Wear </b>
+                                <div class="d-flex flex-column">
+                                  <a href="">Dresses </a>
+                                  <a href="">Jumpsuits </a>
+                                </div>
+                              </div>
+                            </li>
+                            
+                            <!-- column Three submenu -->
+                            <li class="ms-5">
+                              <div class="linkListOne">
+                                <b >Footwear </b>
+                                <div class="d-flex flex-column">
+                                  <a href="">Flats </a>
+                                  <a href="">Casual Shoes  </a>
+                                  <a href="">Heels </a>
+                                  <a href="">Boots </a>
+                                  <a href="">Sports Shoes & Floaters  </a>
+                                </div>
+                             </div>
+                              <div class="ps-2 linkListTow mt-3">
+                                <b >Product Features  </b>
+                                <div class="d-flex flex-column">
+                                  <a href="">360 Product Viewer  </a>
+                                  <a href="">Product with Video </a>
+                                </div>
+                             </div>
+                            </li>
+                            <!-- column four submenu -->
+                            <li class="ms-5">
+                              <div class="linkListOne">
+                                <b >Kids  </b>
+                                <div class="d-flex flex-column">
+                                  <a href="">T-Shirts  </a>
+                                  <a href="">Shirts  </a>
+                                  <a href="">Jeans  </a>
+                                  <a href="">Trousers  </a>
+                                  <a href="">Party Wear  </a>
+                                </div>
+                             </div>
+                              <div class="ps-2 linkListTow mt-3">
+                                <b >Innerwear & Thermal  </b>
+                                <div class="d-flex flex-column">
+                                  <a href="">Track Pants </a>
+                                  <a href="">Value Pack </a>
+                                </div>
+                             </div>
+                            </li>
+                            
+                    </ul>
+                  </div>
+              </li>
+  <li class="mx-1  p-1"><a href="" class="">Our Story</a></li>
+  <li class="mx-1  p-1"><a href="" class="">Blog</a></li>
+  <li class="mx-1 bg- p-1"><a href="" class="">Cantact Us</a></li>
+</ul>
             </div>
             <!--! this's icons and button Login -->
             <div class="col ">
@@ -58,9 +150,11 @@
   
 
 
-
+      <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
     <script 
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
+    <script src="./js/subMenu.js"></script>
 </body>
   </body>
 </html>
